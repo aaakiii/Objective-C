@@ -7,13 +7,16 @@
 //
 
 #import "InputCollector.h"
+#import "InputHandler.h"
 
 @implementation InputCollector
 
 -(NSString *)inputForPrompt:(NSString *)promptString
 {
-
-    return promptString;
+    NSLog(@"%@", promptString);
+    NSString *input =[InputHandler getUserInput];
+    
+    return input;
 }
 
 @end

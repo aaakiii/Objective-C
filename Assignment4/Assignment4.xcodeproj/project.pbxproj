@@ -10,6 +10,9 @@
 		613C17631F4B58B600975068 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 613C17621F4B58B600975068 /* main.m */; };
 		613C176B1F4B58E300975068 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 613C176A1F4B58E300975068 /* InputCollector.m */; };
 		613C176E1F4B590300975068 /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 613C176D1F4B590300975068 /* ContactList.m */; };
+		619582951F4C985D0083C5E2 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 619582941F4C985D0083C5E2 /* Contact.m */; };
+		619582981F4CB01A0083C5E2 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 619582971F4CB01A0083C5E2 /* InputHandler.m */; };
+		6195829E1F4CBA030083C5E2 /* PhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195829D1F4CBA030083C5E2 /* PhoneNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,12 @@
 		613C176A1F4B58E300975068 /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
 		613C176C1F4B590300975068 /* ContactList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
 		613C176D1F4B590300975068 /* ContactList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
+		619582931F4C985D0083C5E2 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		619582941F4C985D0083C5E2 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		619582961F4CB0120083C5E2 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		619582971F4CB01A0083C5E2 /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		6195829C1F4CBA030083C5E2 /* PhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumber.h; sourceTree = "<group>"; };
+		6195829D1F4CBA030083C5E2 /* PhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +72,17 @@
 		613C17611F4B58B600975068 /* Assignment4 */ = {
 			isa = PBXGroup;
 			children = (
-				613C17621F4B58B600975068 /* main.m */,
-				613C17691F4B58E300975068 /* InputCollector.h */,
-				613C176A1F4B58E300975068 /* InputCollector.m */,
+				619582931F4C985D0083C5E2 /* Contact.h */,
+				619582941F4C985D0083C5E2 /* Contact.m */,
 				613C176C1F4B590300975068 /* ContactList.h */,
 				613C176D1F4B590300975068 /* ContactList.m */,
+				613C17691F4B58E300975068 /* InputCollector.h */,
+				613C176A1F4B58E300975068 /* InputCollector.m */,
+				619582961F4CB0120083C5E2 /* InputHandler.h */,
+				619582971F4CB01A0083C5E2 /* InputHandler.m */,
+				6195829C1F4CBA030083C5E2 /* PhoneNumber.h */,
+				6195829D1F4CBA030083C5E2 /* PhoneNumber.m */,
+				613C17621F4B58B600975068 /* main.m */,
 			);
 			path = Assignment4;
 			sourceTree = "<group>";
@@ -129,9 +144,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619582951F4C985D0083C5E2 /* Contact.m in Sources */,
+				6195829E1F4CBA030083C5E2 /* PhoneNumber.m in Sources */,
 				613C176E1F4B590300975068 /* ContactList.m in Sources */,
 				613C176B1F4B58E300975068 /* InputCollector.m in Sources */,
 				613C17631F4B58B600975068 /* main.m in Sources */,
+				619582981F4CB01A0083C5E2 /* InputHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +276,7 @@
 				613C17681F4B58B600975068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

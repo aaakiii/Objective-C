@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Contact.h"
 @interface ContactList : NSObject
 
+@property NSMutableArray *contactArry;
+- (instancetype)init;
+- (void)addContact:(Contact *) newContact;
+- (BOOL) findDuplicate:(NSString*) name;
+- (Contact *) find: (int) index;
+- (Contact *) findById:(NSString *) id;
+- (NSMutableArray *) search: (NSString *) keyword;
+
+- (void) listAll;
 @end
