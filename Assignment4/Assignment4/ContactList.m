@@ -69,7 +69,7 @@
 {
     for (int i = 0; i < _contactArry.count; i++) {
         Contact *c = _contactArry[i];
-        printf("%d: %s <%s>\n", i, [c.name UTF8String], [c.email UTF8String]);
+        NSLog(@"%d: %@ <%@>\n", i, c.name, c.email);
     }
 }
 @end
