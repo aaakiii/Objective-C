@@ -24,9 +24,9 @@ int main(int argc, const char * argv[]) {
         ScoreKeeper *s1 = [ScoreKeeper new];
         
         NSInteger userAnswer;
-        
+        Question *addition = [Question new];
         while(YES){
-            Question *addition = [questionFactory generateRandomQuestion];
+            addition = [questionFactory generateRandomQuestion];
             [questionManager addQuestion: addition];
             NSLog(@"%@", addition.question);
             [addition answer];
@@ -40,9 +40,14 @@ int main(int argc, const char * argv[]) {
                 s1.wrong++;
                 NSLog(@"%@",wrong);
             }
-            [addition answerTime];
+          
             
         }
+        
+        NSTimeInterval totalTime = [addition answerTime];
+        NSLog(@"Time: %f secs",totalTime);
+        NSLog(@"%@",[questionManager timeOutput]);
+       
         NSLog(@"\n%@", [s1 score]);
         
     }

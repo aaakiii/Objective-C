@@ -13,5 +13,6 @@
 
 @property NSMutableArray *questions;
 - (instancetype)init;
+- (NSString*)timeOutput;
 - (void) addQuestion:(Question *) question;
 @end

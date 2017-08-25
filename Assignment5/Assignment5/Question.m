@@ -29,7 +29,8 @@
     return _answer;
 }
 
-- (NSTimeInterval) answerTime {
+- (NSTimeInterval) answerTime
+{
     return [_endTime timeIntervalSinceDate: _startTime];
 }
 

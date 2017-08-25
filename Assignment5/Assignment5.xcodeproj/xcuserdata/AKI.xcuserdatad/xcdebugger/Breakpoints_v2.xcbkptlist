@@ -40,11 +40,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Assignment5/main.m"
-            timestampString = "525379473.564"
+            timestampString = "525380677.222156"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
@@ -56,11 +56,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Assignment5/main.m"
-            timestampString = "525380196.476693"
+            timestampString = "525380677.222156"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
@@ -72,13 +72,61 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Assignment5/main.m"
-            timestampString = "525380196.476693"
+            timestampString = "525380677.222156"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "main()"
             landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Assignment5/Question.h"
+            timestampString = "525380946.895704"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "leftValue"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Question leftValue]"
+                  moduleName = "Assignment5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AKI/Objective-C/Assignment5/Assignment5/Question.h"
+                  timestampString = "525381250.284063"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Question setLeftValue:]"
+                  moduleName = "Assignment5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AKI/Objective-C/Assignment5/Assignment5/Question.h"
+                  timestampString = "525381250.286496"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
