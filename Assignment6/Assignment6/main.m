@@ -42,8 +42,6 @@ int main(int argc, const char * argv[]) {
                 }
                 NSLog(@"Which index of dice do you wanna hold?");
                 InputHandler *inputIndex = [InputHandler new];
-                //選ばれたidxのstringをsplitし、arryに格納　[]マークをつけて返す
-            
                 NSArray *idxArry = [inputIndex.string componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
                 
                 for(NSString *index in idxArry){
