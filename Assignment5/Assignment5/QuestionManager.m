@@ -32,7 +32,7 @@
         total += [question answerTime];
     }
    
-     NSString* str = [NSString stringWithFormat: @"Total Time: %ds,  Average time: %lus?", (int) total, (int) total / _questions.count];
+     NSString* str = [NSString stringWithFormat: @"Total Time: %ds,  Average time: %lus", (int) total, (int) total / _questions.count];
     return str;
 }
 
