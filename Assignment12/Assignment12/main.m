@@ -61,20 +61,17 @@ int main(int argc, const char * argv[])
                 }
                 pizza = [restaurantKitchen makePizzaWithSize:size toppings:toppings];
                 
-                NSLog(@"We delivered %lu pizza(s) so far:", (unsigned long)deliveryService.pizzas.count);
+                NSLog(@"We gonna deliver %lu pizza(s):", (unsigned long)deliveryService.pizzas.count);
                 for (Pizza *pizza in deliveryService.pizzas) {
                     NSLog(@"- %@", pizza);
+                    [deliveryCar deliverPizza:pizza];
                 }
                 
                 if(pizza == NULL){
                     NSLog(@"OH NO, NO PIZZA!!!");
                 }
             }
-            
-            
-            
         }
-        
     }
     return 0;
 }
